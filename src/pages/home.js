@@ -11,6 +11,9 @@ const Home = React.createClass({
           <li>
             <Link to="/about">About</Link>
           </li>
+          <li>
+            <Link to="/efforts">Efforts</Link>
+          </li>
         </ul>
       </div>
     )
