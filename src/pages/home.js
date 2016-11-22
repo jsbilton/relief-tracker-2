@@ -1,9 +1,18 @@
 const React = require('react')
+const { Link } = require('react-router')
 
 const Home = React.createClass({
   render() {
     return (
-      <h1>Welcome Home</h1>
+      <div>
+        <h1>Welcome Home</h1>
+        <p>Main Menu</p>
+        <ul>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+        </ul>
+      </div>
     )
   }
 })
